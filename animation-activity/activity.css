@@ -28,17 +28,14 @@ nav {
 }
 
 @keyframes top {
-  from {}
   to {transform: translateX(38px) rotate(49deg) translateY(50px);}
 }
 
 @keyframes middle {
-  from {background-color: rebeccapurple;}
   to {background-color: mediumvioletred;}
 }
 
 @keyframes bottom {
-  from {}
   to {transform: translateX(38px) rotate(-49deg) translateY(-50px);}
 }
 
