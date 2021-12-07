@@ -29,15 +29,33 @@ nav {
 
 @keyframes top {
   from {}
-  to {}
+  to {transform: translateX(38px) rotate(49deg) translateY(50px)}
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {background-color: rebeccapurple;}
+  to {background-color: mediumvioletred;}
 }
 
 @keyframes bottom {
   from {}
-  to {}
+  to {transform: translateX(38px) rotate(-49deg) translateY(-50px)}
+}
+
+#top:hover {
+  animation-name: top;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#middle:hover {
+  animation-name: middle;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#bottom:hover {
+  animation-name: bottom;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
